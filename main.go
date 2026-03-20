@@ -67,7 +67,7 @@ func main() {
 		log.Fatal(err)
 	}
 
-	fmt.Println("The correct word was", selectedWord)
+	fmt.Printf("\nThe correct word was: %s\n", selectedWord)
 }
 
 func playGame(debug *bool, selectedWord string, wordsMap map[string]bool) error {
